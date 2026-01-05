@@ -1,0 +1,59 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+android/.gradle/
+android/app/*.iml
+**/android/app/build/
+local.properties
+.gradle/
+
+# iOS / macOS
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/flutter_export_environment.sh
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj/xcuserdata/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Coverage / Reports
+coverage/
+report/
+*.lcov
+
+# Build outputs / caches
+.cache/
+dist/
+
+# Secrets & keys (CRITICAL SAFETY)
+.env
+.env.*
+*.env
+*_secret.dart
+secrets/
+*.pem
+*.key
+*.p12
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+android/key.properties
